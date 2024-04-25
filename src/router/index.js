@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import UserList from '../views/UserList.vue'
 import SubPage from '../views/SubPage.vue'
+import RouterPractice from '../views/RouterPractice.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/user-list',
     name: 'UserList',
     component: UserList,
+  },
+  {
+    path: '/router-practice',
+    name: 'RouterPractice',
+    component: RouterPractice,
   },
 ]
 
